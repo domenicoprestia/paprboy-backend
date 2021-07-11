@@ -4,7 +4,7 @@ const connectDB = require('./config/db')
 const colors = require('colors')
 const { connect } = require('mongoose')
 
-dotenv.config({path: './config/config.env'})
+dotenv.config({ path: './config/config.env' })
 
 connectDB()
 
